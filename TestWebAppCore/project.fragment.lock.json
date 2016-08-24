@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "exports": {
+    "TestLibrary/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/TestLibrary.dll": {}
+      },
+      "runtime": {
+        "../packages/CommonMark.NET.0.13.4/lib/net45/CommonMark.dll": {},
+        "bin/Debug/TestLibrary.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/TestLibrary.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
